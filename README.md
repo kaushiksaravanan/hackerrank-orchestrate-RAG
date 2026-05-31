@@ -10,9 +10,9 @@ Read [`problem_statement.md`](./problem_statement.md) for the full task spec, in
 
 ## Architecture
 
-![Architecture](./docs/architecture.svg)
+![Architecture](./docs/architecture.png)
 
-The agent runs in two phases. Offline indexing loads the local corpus, cleans and chunks each markdown doc by heading, then builds a per-domain BM25 + dense vector index (BAAI/bge-large-en-v1.5, 1024d) cached under `code/.cache/`. The online pipeline reads `support_tickets.csv`, applies fast-path rules (gratitude, outage, off-topic, malicious), routes to a domain (HackerRank / Claude / Visa), runs hybrid retrieval with reciprocal rank fusion, gates on answerability, then asks Claude (temperature 0) to produce a grounded JSON response which is verified to strip ungrounded URLs/phones/emails before being written to `output.csv`. See [`code/README.md`](./code/README.md) for full module-level details.
+The agent runs in two phases. Offline indexing loads the local corpus, cleans and chunks each markdown doc by heading, then builds a per-domain BM25 + dense vector index (BAAI/bge-large-en-v1.5, 1024d) cached under `code/.cache/`. The online pipeline reads `support_tickets.csv`, applies fast-path rules (gratitude, outage, off-topic, malicious), routes to a domain (HackerRank / Claude / Visa), runs hybrid retrieval with reciprocal rank fusion + source priors, gates on answerability (top RRF score ≥ 0.015), then asks Claude (temperature 0, JSON, retry × 3) to produce a grounded response which is verified to strip ungrounded URLs/phones/emails before being written to `output.csv`. The grey dashed callouts on the diagram capture the concrete parameters per stage. See [`code/README.md`](./code/README.md) for full module-level details.
 
 ---
 
