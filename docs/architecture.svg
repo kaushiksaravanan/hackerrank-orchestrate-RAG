@@ -1,86 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 1300 1340" width="1300" height="1340" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720" width="1100" height="720" font-family="Helvetica, Arial, sans-serif">
 <defs>
-<marker id="ah_0c5793" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0c5793" /></marker>
-<marker id="ah_1971c2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1971c2" /></marker>
-<marker id="ah_2b8a3e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2b8a3e" /></marker>
-<marker id="ah_5f3dc4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5f3dc4" /></marker>
-<marker id="ah_a8470d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#a8470d" /></marker>
-<marker id="ah_c92a2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c92a2a" /></marker>
-<marker id="ah_e8590c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e8590c" /></marker>
+<marker id="ah_e8590c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e8590c"/></marker>
+<marker id="ah_2b8a3e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2b8a3e"/></marker>
+<marker id="ah_a8470d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#a8470d"/></marker>
+<marker id="ah_c92a2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c92a2a"/></marker>
+<marker id="ah_0c5793" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0c5793"/></marker>
+<marker id="ah_5f3dc4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5f3dc4"/></marker>
+<marker id="ah_1971c2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1971c2"/></marker>
 </defs>
-<rect x="0" y="-10" width="1300" height="1340" fill="#fdfdfd"/>
-<rect x="30" y="80" width="1240" height="260" rx="8" ry="8" fill="#e7f5ff" stroke="#1971c2" stroke-width="1"/>
-<rect x="30" y="370" width="1240" height="820" rx="8" ry="8" fill="#fff9db" stroke="#e67700" stroke-width="1"/>
-<rect x="50" y="140" width="280" height="70" rx="8" ry="8" fill="#ffffff" stroke="#1971c2" stroke-width="2"/>
-<text x="190.0" y="169.4" font-size="16" text-anchor="middle" fill="#1971c2">data/ corpus</text>
-<text x="190.0" y="188.6" font-size="16" text-anchor="middle" fill="#1971c2">(HackerRank / Claude / Visa)</text>
-<rect x="370" y="140" width="180" height="70" rx="8" ry="8" fill="#ffffff" stroke="#1971c2" stroke-width="2"/>
-<text x="460.0" y="169.4" font-size="16" text-anchor="middle" fill="#1971c2">preprocessor.py</text>
-<text x="460.0" y="188.6" font-size="16" text-anchor="middle" fill="#1971c2">(clean MD)</text>
-<rect x="590" y="140" width="160" height="70" rx="8" ry="8" fill="#ffffff" stroke="#1971c2" stroke-width="2"/>
-<text x="670.0" y="169.4" font-size="16" text-anchor="middle" fill="#1971c2">chunker</text>
-<text x="670.0" y="188.6" font-size="16" text-anchor="middle" fill="#1971c2">(headings)</text>
-<rect x="790" y="140" width="200" height="70" rx="8" ry="8" fill="#ffffff" stroke="#1971c2" stroke-width="2"/>
-<text x="890.0" y="179.0" font-size="16" text-anchor="middle" fill="#1971c2">BM25 + vectors</text>
-<rect x="1030" y="140" width="220" height="70" rx="8" ry="8" fill="#ffffff" stroke="#1971c2" stroke-width="2"/>
-<text x="1140.0" y="169.4" font-size="16" text-anchor="middle" fill="#1971c2">.cache/{domain}</text>
-<text x="1140.0" y="188.6" font-size="16" text-anchor="middle" fill="#1971c2">_{hash}.pkl</text>
-<rect x="370" y="240" width="620" height="70" rx="8" ry="8" fill="#fff5e6" stroke="#e8590c" stroke-width="1" stroke-dasharray="6 4"/>
-<text x="680.0" y="279.0" font-size="16" text-anchor="middle" fill="#e8590c">embeddings.py â€” HF Inference (BAAI/bge-large-en-v1.5)  â†’  ONNX local  â†’  TFIDF</text>
-<rect x="60" y="430" width="220" height="70" rx="8" ry="8" fill="#ffffff" stroke="#e67700" stroke-width="2"/>
-<text x="170.0" y="469.0" font-size="16" text-anchor="middle" fill="#e67700">support_tickets.csv</text>
-<rect x="60" y="540" width="220" height="70" rx="8" ry="8" fill="#ffffff" stroke="#e67700" stroke-width="2"/>
-<text x="170.0" y="569.4" font-size="16" text-anchor="middle" fill="#e67700">main.py</text>
-<text x="170.0" y="588.6" font-size="16" text-anchor="middle" fill="#e67700">row loop</text>
-<rect x="480" y="430" width="300" height="70" rx="8" ry="8" fill="#ffffff" stroke="#0c5793" stroke-width="2"/>
-<text x="630.0" y="459.40000000000003" font-size="16" text-anchor="middle" fill="#0c5793">1. Fast-path classifier</text>
-<text x="630.0" y="478.6" font-size="16" text-anchor="middle" fill="#0c5793">(gratitude / outage / off-topic)</text>
-<rect x="460" y="540" width="340" height="70" rx="8" ry="8" fill="#ffffff" stroke="#0c5793" stroke-width="2"/>
-<text x="630.0" y="569.4" font-size="16" text-anchor="middle" fill="#0c5793">2. Domain router</text>
-<text x="630.0" y="588.6" font-size="16" text-anchor="middle" fill="#0c5793">(HackerRank / Claude / Visa)</text>
-<rect x="420" y="650" width="420" height="80" rx="8" ry="8" fill="#ffffff" stroke="#0c5793" stroke-width="2"/>
-<text x="630.0" y="684.4" font-size="16" text-anchor="middle" fill="#0c5793">3. Hybrid retrieval</text>
-<text x="630.0" y="703.6" font-size="16" text-anchor="middle" fill="#0c5793">BM25 âŠ• Vector  â†’  RRF  +  source priors</text>
-<rect x="460" y="770" width="340" height="70" rx="8" ry="8" fill="#ffffff" stroke="#0c5793" stroke-width="2"/>
-<text x="630.0" y="799.4" font-size="16" text-anchor="middle" fill="#0c5793">4. Answerability gate</text>
-<text x="630.0" y="818.6" font-size="16" text-anchor="middle" fill="#0c5793">(top score â‰¥ 0.015)</text>
-<rect x="410" y="880" width="440" height="80" rx="8" ry="8" fill="#ffffff" stroke="#0c5793" stroke-width="2"/>
-<text x="630.0" y="914.4" font-size="16" text-anchor="middle" fill="#0c5793">5. LLM generation</text>
-<text x="630.0" y="933.6" font-size="16" text-anchor="middle" fill="#0c5793">system + few-shot + user Â· JSON Â· retryÃ—3</text>
-<rect x="410" y="1000" width="440" height="70" rx="8" ry="8" fill="#ffffff" stroke="#0c5793" stroke-width="2"/>
-<text x="630.0" y="1029.3999999999999" font-size="16" text-anchor="middle" fill="#0c5793">6. Grounding verifier</text>
-<text x="630.0" y="1048.6" font-size="16" text-anchor="middle" fill="#0c5793">strip ungrounded URLs / phones / emails</text>
-<rect x="480" y="1100" width="300" height="60" rx="8" ry="8" fill="#ffffff" stroke="#0c5793" stroke-width="2"/>
-<text x="630.0" y="1134.0" font-size="16" text-anchor="middle" fill="#0c5793">structured JSON result</text>
-<rect x="1000" y="890" width="250" height="80" rx="8" ry="8" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
-<text x="1125.0" y="924.4" font-size="16" text-anchor="middle" fill="#5f3dc4">llm.py</text>
-<text x="1125.0" y="943.6" font-size="16" text-anchor="middle" fill="#5f3dc4">Anthropic  /  HF Inference</text>
-<rect x="80" y="650" width="300" height="80" rx="8" ry="8" fill="#e7f5ff" stroke="#1971c2" stroke-width="1" stroke-dasharray="6 4"/>
-<text x="230.0" y="684.4" font-size="16" text-anchor="middle" fill="#1971c2">indices loaded from</text>
-<text x="230.0" y="703.6" font-size="16" text-anchor="middle" fill="#1971c2">model-aware cache (above)</text>
-<rect x="540" y="1230" width="260" height="70" rx="8" ry="8" fill="#ebfbee" stroke="#2b8a3e" stroke-width="3"/>
-<text x="670.0" y="1269.0" font-size="16" text-anchor="middle" fill="#2b8a3e">output.csv</text>
-<text x="660.0" y="43.8" font-size="28" text-anchor="middle" fill="#1864ab">Support Triage Agent â€” Architecture</text>
-<text x="50" y="107.3" font-size="18" text-anchor="start" fill="#0c5793">Offline Indexing  (one-time, model-aware cache)</text>
-<text x="50" y="397.3" font-size="18" text-anchor="start" fill="#a8470d">Online Pipeline  (per CSV row â†’ process_ticket)</text>
-<line x1="330.0" y1="175.0" x2="370.0" y2="175.0" stroke="#1971c2" stroke-width="2" marker-end="url(#ah_1971c2)" />
-<line x1="550.0" y1="175.0" x2="590.0" y2="175.0" stroke="#1971c2" stroke-width="2" marker-end="url(#ah_1971c2)" />
-<line x1="750.0" y1="175.0" x2="790.0" y2="175.0" stroke="#1971c2" stroke-width="2" marker-end="url(#ah_1971c2)" />
-<line x1="990.0" y1="175.0" x2="1030.0" y2="175.0" stroke="#1971c2" stroke-width="2" marker-end="url(#ah_1971c2)" />
-<line x1="753.5" y1="240.0" x2="816.5" y2="210.0" stroke="#e8590c" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ah_e8590c)" />
-<line x1="170.0" y1="500.0" x2="170.0" y2="540.0" stroke="#a8470d" stroke-width="2" marker-end="url(#ah_a8470d)" />
-<line x1="280.0" y1="548.695652173913" x2="483.6363636363636" y2="500.0" stroke="#a8470d" stroke-width="2" marker-end="url(#ah_a8470d)" />
-<line x1="630.0" y1="500.0" x2="630.0" y2="540.0" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)" />
-<line x1="630.0" y1="610.0" x2="630.0" y2="650.0" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)" />
-<line x1="630.0" y1="730.0" x2="630.0" y2="770.0" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)" />
-<line x1="630.0" y1="840.0" x2="630.0" y2="880.0" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)" />
-<line x1="630.0" y1="960.0" x2="630.0" y2="1000.0" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)" />
-<line x1="630.0" y1="1070.0" x2="630.0" y2="1100.0" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)" />
-<line x1="380.0" y1="690.0" x2="420.0" y2="690.0" stroke="#1971c2" stroke-width="1" stroke-dasharray="6 4" marker-end="url(#ah_1971c2)" />
-<line x1="1000.0" y1="927.4747474747475" x2="850.0" y2="924.4444444444445" stroke="#5f3dc4" stroke-width="2" marker-end="url(#ah_5f3dc4)" />
-<line x1="638.8888888888889" y1="1160.0" x2="659.6296296296297" y2="1230.0" stroke="#2b8a3e" stroke-width="2" marker-end="url(#ah_2b8a3e)" />
-<path d="M 900 465 L 1050 465 L 1050 1265 L 700 1265" fill="none" stroke="#a8470d" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ah_a8470d)" />
-<text x="1050" y="1259" font-size="13" text-anchor="middle" fill="#a8470d">fast-path hit</text>
-<path d="M 900 805 L 1000 805 L 1000 1265 L 700 1265" fill="none" stroke="#c92a2a" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ah_c92a2a)" />
-<text x="1000" y="1259" font-size="13" text-anchor="middle" fill="#c92a2a">escalate</text>
+<rect x="0" y="0" width="1100" height="720" fill="#fdfdfd"/>
+<rect x="20" y="60" width="1060" height="200" rx="10" ry="10" fill="#e7f5ff" stroke="#1971c2" stroke-width="1"/>
+<text x="40" y="88" font-size="16" text-anchor="start" fill="#0c5793" font-weight="bold">Offline Indexing  (one-time, cached)</text>
+<rect x="20" y="290" width="1060" height="380" rx="10" ry="10" fill="#fff9db" stroke="#e8590c" stroke-width="1"/>
+<text x="40" y="318" font-size="16" text-anchor="start" fill="#a8470d" font-weight="bold">Online Pipeline  (per CSV row)</text>
+<text x="550.0" y="35" font-size="24" text-anchor="middle" fill="#0c5793" font-weight="bold">Support Triage Agent - Architecture</text>
+<rect x="60" y="130" width="220" height="90" rx="10" ry="10" fill="#ffffff" stroke="#1971c2" stroke-width="2"/>
+<text x="170.0" y="165.5" font-size="15" text-anchor="middle" fill="#1971c2" font-weight="bold">data/ corpus</text>
+<text x="170.0" y="182.5" font-size="13" text-anchor="middle" fill="#1971c2" font-weight="normal">HackerRank | Claude | Visa</text>
+<text x="170.0" y="199.5" font-size="13" text-anchor="middle" fill="#1971c2" font-weight="normal">(local markdown)</text>
+<rect x="370" y="130" width="320" height="90" rx="10" ry="10" fill="#ffffff" stroke="#1971c2" stroke-width="2"/>
+<text x="530.0" y="165.5" font-size="15" text-anchor="middle" fill="#1971c2" font-weight="bold">Indexer</text>
+<text x="530.0" y="182.5" font-size="13" text-anchor="middle" fill="#1971c2" font-weight="normal">preprocess + chunk by heading</text>
+<text x="530.0" y="199.5" font-size="13" text-anchor="middle" fill="#1971c2" font-weight="normal">BM25 + dense (bge-large-en-v1.5)</text>
+<rect x="770" y="130" width="270" height="90" rx="10" ry="10" fill="#ffffff" stroke="#1971c2" stroke-width="2"/>
+<text x="905.0" y="174.0" font-size="15" text-anchor="middle" fill="#1971c2" font-weight="bold">.cache/{domain}_{hash}.pkl</text>
+<text x="905.0" y="191.0" font-size="13" text-anchor="middle" fill="#1971c2" font-weight="normal">model-aware, auto-rebuilds</text>
+<line x1="280" y1="175" x2="370" y2="175" stroke="#1971c2" stroke-width="2" marker-end="url(#ah_1971c2)"/>
+<line x1="690" y1="175" x2="770" y2="175" stroke="#1971c2" stroke-width="2" marker-end="url(#ah_1971c2)"/>
+<rect x="60" y="360" width="200" height="80" rx="10" ry="10" fill="#ffffff" stroke="#a8470d" stroke-width="2"/>
+<text x="160.0" y="399.0" font-size="15" text-anchor="middle" fill="#a8470d" font-weight="bold">support_tickets.csv</text>
+<text x="160.0" y="416.0" font-size="13" text-anchor="middle" fill="#a8470d" font-weight="normal">issue, subject, company</text>
+<rect x="310" y="350" width="460" height="280" rx="10" ry="10" fill="#ffffff" stroke="#0c5793" stroke-width="2"/>
+<text x="540.0" y="421.5" font-size="16" text-anchor="middle" fill="#0c5793" font-weight="bold">Agent pipeline   (process_ticket)</text>
+<text x="540.0" y="438.5" font-size="13" text-anchor="middle" fill="#0c5793" font-weight="normal">1.  Fast-path classifier</text>
+<text x="540.0" y="455.5" font-size="13" text-anchor="middle" fill="#0c5793" font-weight="normal">      gratitude, outage, off-topic, unsafe</text>
+<text x="540.0" y="472.5" font-size="13" text-anchor="middle" fill="#0c5793" font-weight="normal">2.  Domain router  ->  HackerRank / Claude / Visa</text>
+<text x="540.0" y="489.5" font-size="13" text-anchor="middle" fill="#0c5793" font-weight="normal">3.  Hybrid retrieval</text>
+<text x="540.0" y="506.5" font-size="13" text-anchor="middle" fill="#0c5793" font-weight="normal">      BM25 + vector  ->  RRF  +  source priors</text>
+<text x="540.0" y="523.5" font-size="13" text-anchor="middle" fill="#0c5793" font-weight="normal">4.  Answerability gate  (top score >= 0.015)</text>
+<text x="540.0" y="540.5" font-size="13" text-anchor="middle" fill="#0c5793" font-weight="normal">5.  LLM generation  (JSON, temp=0, retry x 3)</text>
+<text x="540.0" y="557.5" font-size="13" text-anchor="middle" fill="#0c5793" font-weight="normal">6.  Grounding verifier</text>
+<text x="540.0" y="574.5" font-size="13" text-anchor="middle" fill="#0c5793" font-weight="normal">      strip ungrounded URLs / phones / emails</text>
+<rect x="820" y="360" width="220" height="80" rx="10" ry="10" fill="#ebfbee" stroke="#2b8a3e" stroke-width="3"/>
+<text x="930.0" y="399.0" font-size="15" text-anchor="middle" fill="#2b8a3e" font-weight="bold">output.csv</text>
+<text x="930.0" y="416.0" font-size="13" text-anchor="middle" fill="#2b8a3e" font-weight="normal">status, response, justification</text>
+<rect x="820" y="470" width="220" height="60" rx="10" ry="10" fill="#ffe3e3" stroke="#c92a2a" stroke-width="2"/>
+<text x="930.0" y="499.0" font-size="15" text-anchor="middle" fill="#c92a2a" font-weight="bold">escalated</text>
+<text x="930.0" y="516.0" font-size="13" text-anchor="middle" fill="#c92a2a" font-weight="normal">(safe fallback)</text>
+<rect x="820" y="560" width="220" height="90" rx="10" ry="10" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="930.0" y="595.5" font-size="15" text-anchor="middle" fill="#5f3dc4" font-weight="bold">LLM client</text>
+<text x="930.0" y="612.5" font-size="13" text-anchor="middle" fill="#5f3dc4" font-weight="normal">Anthropic SDK</text>
+<text x="930.0" y="629.5" font-size="13" text-anchor="middle" fill="#5f3dc4" font-weight="normal">/  HF Inference fallback</text>
+<line x1="260" y1="400" x2="310" y2="400" stroke="#a8470d" stroke-width="2" marker-end="url(#ah_a8470d)"/>
+<line x1="770" y1="400" x2="820" y2="400" stroke="#2b8a3e" stroke-width="2" marker-end="url(#ah_2b8a3e)"/>
+<text x="795.0" y="394.0" font-size="12" text-anchor="middle" fill="#2b8a3e" font-weight="normal">replied</text>
+<line x1="770" y1="500" x2="820" y2="500" stroke="#c92a2a" stroke-width="2" marker-end="url(#ah_c92a2a)"/>
+<text x="795.0" y="494.0" font-size="12" text-anchor="middle" fill="#c92a2a" font-weight="normal">fast-path / gate fail</text>
+<line x1="820" y1="600" x2="770" y2="600" stroke="#5f3dc4" stroke-width="2" marker-end="url(#ah_5f3dc4)"/>
+<text x="795.0" y="594.0" font-size="12" text-anchor="middle" fill="#5f3dc4" font-weight="normal">generate</text>
+<path d="M 905 220 L 905 250 L 540 250 L 540 350" fill="none" stroke="#1971c2" stroke-width="1" stroke-dasharray="6 4" marker-end="url(#ah_1971c2)"/>
+<text x="720" y="242" font-size="12" text-anchor="middle" fill="#1971c2" font-weight="normal">indices loaded</text>
 </svg>
