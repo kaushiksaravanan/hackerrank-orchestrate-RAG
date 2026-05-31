@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-478.94461064639813 -10 1788.9446106463981 1999" width="1788" height="1999" font-family="Helvetica, Arial, sans-serif">
 <defs>
-<marker id="ah_5f3dc4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5f3dc4"/></marker>
-<marker id="ah_2b8a3e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2b8a3e"/></marker>
-<marker id="ah_1971c2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1971c2"/></marker>
 <marker id="ah_0c5793" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0c5793"/></marker>
-<marker id="ah_a8470d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#a8470d"/></marker>
-<marker id="ah_c92a2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c92a2a"/></marker>
 <marker id="ah_495057" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#495057"/></marker>
+<marker id="ah_2b8a3e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2b8a3e"/></marker>
+<marker id="ah_5f3dc4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5f3dc4"/></marker>
+<marker id="ah_c92a2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c92a2a"/></marker>
 <marker id="ah_1864ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1864ab"/></marker>
+<marker id="ah_a8470d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#a8470d"/></marker>
+<marker id="ah_1971c2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1971c2"/></marker>
 </defs>
 <rect x="-478.94461064639813" y="-10" width="1788.9446106463981" height="1999" fill="#fdfdfd"/>
 <rect x="40.34758614041857" y="130" width="240" height="100" rx="6" ry="6" fill="#e7f5ff" stroke="#1971c2" stroke-width="2"/>
@@ -47,8 +47,8 @@
 <line x1="883.6667186702109" y1="1425.097221747099" x2="999.7136232235471" y2="1423.7724065254777" stroke="#5f3dc4" stroke-width="2" marker-end="url(#ah_5f3dc4)"/>
 <line x1="750.977914920622" y1="1476.9843655949644" x2="752.2206063369628" y2="1543.011502751937" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
 <line x1="685.9289520308487" y1="1674.511502751937" x2="526.7304201322158" y2="1818.7051158768636" stroke="#2b8a3e" stroke-width="2" marker-end="url(#ah_2b8a3e)"/>
-<line x1="158.2889855359518" y1="1206.701490088476" x2="441.01462584194553" y2="1807.7945541706024" stroke="#c92a2a" stroke-width="2" marker-end="url(#ah_c92a2a)"/>
-<line x1="789.1641515726368" y1="360.90962374992006" x2="790.4217709370815" y2="697.5601875069294" stroke="#1971c2" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ah_1971c2)"/>
+<line x1="158.5" y1="1207" x2="441" y2="1808" stroke="#c92a2a" stroke-width="2" marker-end="url(#ah_c92a2a)"/>
+<line x1="834" y1="354" x2="746" y2="729" stroke="#1971c2" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ah_1971c2)"/>
 <line x1="377.5000007503871" y1="1132.8253571050664" x2="265.88412260713665" y2="1131.9229105059285" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
 <text x="269.8399353027344" y="60.4" font-size="32" text-anchor="middle" fill="#1864ab">Support Triage Agent</text>
 <text x="160.34758614041857" y="186.5" font-size="20" text-anchor="middle" fill="#1971c2">Offline Indexing</text>
