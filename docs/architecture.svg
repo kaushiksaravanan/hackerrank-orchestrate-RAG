@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-569.1996765136719 -10 1879.1996765136719 2055" width="1879" height="2055" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-478.94461064639813 -10 1788.9446106463981 1999" width="1788" height="1999" font-family="Helvetica, Arial, sans-serif">
 <defs>
-<marker id="ah_1864ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1864ab"/></marker>
-<marker id="ah_c92a2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c92a2a"/></marker>
 <marker id="ah_5f3dc4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5f3dc4"/></marker>
 <marker id="ah_2b8a3e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2b8a3e"/></marker>
+<marker id="ah_1971c2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1971c2"/></marker>
 <marker id="ah_0c5793" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0c5793"/></marker>
 <marker id="ah_a8470d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#a8470d"/></marker>
-<marker id="ah_1971c2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1971c2"/></marker>
+<marker id="ah_c92a2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c92a2a"/></marker>
 <marker id="ah_495057" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#495057"/></marker>
+<marker id="ah_1864ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1864ab"/></marker>
 </defs>
-<rect x="-569.1996765136719" y="-10" width="1879.1996765136719" height="2055" fill="#fdfdfd"/>
+<rect x="-478.94461064639813" y="-10" width="1788.9446106463981" height="1999" fill="#fdfdfd"/>
 <rect x="40.34758614041857" y="130" width="240" height="100" rx="6" ry="6" fill="#e7f5ff" stroke="#1971c2" stroke-width="2"/>
 <rect x="60" y="270" width="200" height="90" rx="6" ry="6" fill="#ffffff" stroke="#1971c2" stroke-width="2"/>
 <rect x="340" y="270" width="240" height="110" rx="6" ry="6" fill="#ffffff" stroke="#1971c2" stroke-width="2"/>
@@ -24,33 +24,33 @@
 <ellipse cx="447.14375603463253" cy="1863.8658751660462" rx="110.0" ry="40.0" fill="#ebfbee" stroke="#2b8a3e" stroke-width="3"/>
 <rect x="17.376309026971285" y="1070.62627371562" width="220" height="130" rx="6" ry="6" fill="#ffe3e3" stroke="#c92a2a" stroke-width="3"/>
 <rect x="1033.213623223547" y="1379.362228655674" width="220" height="90" rx="6" ry="6" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
-<rect x="60" y="410" width="200" height="160" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
-<rect x="340" y="410" width="240" height="235" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
-<rect x="714" y="410" width="240" height="185" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
-<rect x="1000" y="270" width="270" height="235" rx="6" ry="6" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2" stroke-dasharray="6 4"/>
-<rect x="-100" y="430" width="280" height="210" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
-<rect x="296" y="530" width="220" height="160" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
-<rect x="380" y="830" width="300" height="195" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
-<rect x="920" y="1029" width="280" height="235" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
-<rect x="290" y="1320" width="280" height="385" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
-<rect x="290" y="1560" width="280" height="235" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
-<rect x="600" y="1820" width="280" height="185" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
-<rect x="970" y="1700" width="300" height="235" rx="6" ry="6" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2" stroke-dasharray="6 4"/>
-<line x1="268.5" y1="315" x2="329.5" y2="315" stroke="#1971c2" stroke-width="2" marker-end="url(#ah_1971c2)"/>
-<line x1="588.0000000000001" y1="314.0681261953833" x2="704.078060187794" y2="312.76231636154483" stroke="#1971c2" stroke-width="2" marker-end="url(#ah_1971c2)"/>
-<line x1="-215.47979538885332" y1="787.9474279938379" x2="-109.10440102739233" y2="787.3494926607912" stroke="#a8470d" stroke-width="2" marker-end="url(#ah_a8470d)"/>
-<line x1="184.71204579977322" y1="778.6752930591182" x2="286.1115044485226" y2="776.9887812923856" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
-<line x1="118.31737972118316" y1="925.2677004639012" x2="122.09906169659634" y2="1062.8503680746967" stroke="#c92a2a" stroke-width="2" marker-end="url(#ah_c92a2a)"/>
-<line x1="519.6115044485226" y1="771.3840663785627" x2="605.5078623219244" y2="771.3448603125494" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
-<line x1="744.0686374377585" y1="826.5641176292265" x2="743.5459489864585" y2="828.000586721048" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
-<line x1="741.9946877336474" y1="1250.5275326418" x2="746.32892427504" y2="1368.9843655949644" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
-<line x1="883.6667186702109" y1="1424.097221747099" x2="1023.2136232235471" y2="1424.2724065254777" stroke="#5f3dc4" stroke-width="2" marker-end="url(#ah_5f3dc4)"/>
-<line x1="751.977914920622" y1="1476.9843655949644" x2="751.7206063369628" y2="1566.511502751937" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
-<line x1="686.4289520308487" y1="1674.511502751937" x2="503.2304201322158" y2="1819.2051158768636" stroke="#2b8a3e" stroke-width="2" marker-end="url(#ah_2b8a3e)"/>
-<line x1="158.2889855359518" y1="1206.701490088476" x2="464.51462584194553" y2="1807.7945541706024" stroke="#c92a2a" stroke-width="2" marker-end="url(#ah_c92a2a)"/>
-<line x1="789.1641515726368" y1="360.90962374992006" x2="790.4217709370815" y2="721.0601875069294" stroke="#1971c2" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ah_1971c2)"/>
-<line x1="587.9700715651645" y1="1132.1434707243454" x2="242.38412260713665" y2="1132.4229105059285" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
-<text x="-359.3597412109375" y="60.4" font-size="32" text-anchor="middle" fill="#1864ab">Support Triage Agent</text>
+<rect x="60" y="410" width="200" height="114" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="340" y="410" width="240" height="159" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="714" y="410" width="240" height="129" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="1000" y="270" width="270" height="159" rx="6" ry="6" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="-360" y="410" width="280" height="144" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="320" y="600" width="220" height="114" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="200" y="830" width="300" height="234" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="920" y="1029" width="280" height="159" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="290" y="1320" width="280" height="249" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="290" y="1577" width="280" height="159" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="600" y="1820" width="280" height="129" rx="6" ry="6" fill="#f8f9fa" stroke="#495057" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="970" y="1700" width="300" height="159" rx="6" ry="6" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="268.5" y1="315" x2="306" y2="315" stroke="#1971c2" stroke-width="2" marker-end="url(#ah_1971c2)"/>
+<line x1="588.0000000000001" y1="313.0681261953833" x2="680.578060187794" y2="313.26231636154483" stroke="#1971c2" stroke-width="2" marker-end="url(#ah_1971c2)"/>
+<line x1="-215.47979538885332" y1="786.9474279938379" x2="-132.60440102739233" y2="787.8494926607912" stroke="#a8470d" stroke-width="2" marker-end="url(#ah_a8470d)"/>
+<line x1="184.71204579977322" y1="779.6752930591182" x2="262.6115044485226" y2="778.4887812923856" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
+<line x1="117.31737972118316" y1="925.2677004639012" x2="118.59906169659634" y2="1039.3503680746967" stroke="#c92a2a" stroke-width="2" marker-end="url(#ah_c92a2a)"/>
+<line x1="542.4999997708197" y1="770.8733483826917" x2="582.0078623219244" y2="771.8448603125494" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
+<line x1="743.0686374377585" y1="827.5641176292265" x2="744.0459489864585" y2="827.500586721048" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
+<line x1="741.9946877336474" y1="1250.5275326418" x2="741.82892427504" y2="1345.4843655949644" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
+<line x1="883.6667186702109" y1="1425.097221747099" x2="999.7136232235471" y2="1423.7724065254777" stroke="#5f3dc4" stroke-width="2" marker-end="url(#ah_5f3dc4)"/>
+<line x1="750.977914920622" y1="1476.9843655949644" x2="752.2206063369628" y2="1543.011502751937" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
+<line x1="685.9289520308487" y1="1674.511502751937" x2="526.7304201322158" y2="1818.7051158768636" stroke="#2b8a3e" stroke-width="2" marker-end="url(#ah_2b8a3e)"/>
+<line x1="158.2889855359518" y1="1206.701490088476" x2="441.01462584194553" y2="1807.7945541706024" stroke="#c92a2a" stroke-width="2" marker-end="url(#ah_c92a2a)"/>
+<line x1="789.1641515726368" y1="360.90962374992006" x2="790.4217709370815" y2="697.5601875069294" stroke="#1971c2" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ah_1971c2)"/>
+<line x1="377.5000007503871" y1="1132.8253571050664" x2="265.88412260713665" y2="1131.9229105059285" stroke="#0c5793" stroke-width="2" marker-end="url(#ah_0c5793)"/>
+<text x="269.8399353027344" y="60.4" font-size="32" text-anchor="middle" fill="#1864ab">Support Triage Agent</text>
 <text x="160.34758614041857" y="186.5" font-size="20" text-anchor="middle" fill="#1971c2">Offline Indexing</text>
 <text x="160.0" y="296.5" font-size="20" text-anchor="middle" fill="#1971c2">data/ corpus</text>
 <text x="160.0" y="321.5" font-size="20" text-anchor="middle" fill="#1971c2">HackerRank |</text>
@@ -91,147 +91,119 @@
 <text x="1143.213623223547" y="1405.862228655674" font-size="20" text-anchor="middle" fill="#5f3dc4">LLM client</text>
 <text x="1143.213623223547" y="1430.862228655674" font-size="20" text-anchor="middle" fill="#5f3dc4">Anthropic / HF</text>
 <text x="1143.213623223547" y="1455.862228655674" font-size="20" text-anchor="middle" fill="#5f3dc4">Inference</text>
-<text x="224.401780617312" y="741.0820371757519" font-size="20" text-anchor="middle" fill="#0c5793">no</text>
-<text x="106.81822894863583" y="957.809034269299" font-size="20" text-anchor="middle" fill="#c92a2a">hit</text>
-<text x="46.75766757228806" y="1307.7763122544302" font-size="20" text-anchor="middle" fill="#0c5793">yes</text>
-<text x="908.0402075679727" y="1362.6848141362884" font-size="20" text-anchor="middle" fill="#5f3dc4">call</text>
-<text x="137.64010620117188" y="1534.149827818488" font-size="20" text-anchor="middle" fill="#c92a2a">write</text>
-<text x="650.0141881937305" y="548.1137153106471" font-size="20" text-anchor="middle" fill="#1971c2">loaded once</text>
-<text x="380.64711356564277" y="1070.0331906151368" font-size="20" text-anchor="middle" fill="#0c5793">no</text>
-<text x="160.0" y="434.0" font-size="20" text-anchor="middle" fill="#495057">~800 .md files</text>
-<text x="160.0" y="459.0" font-size="20" text-anchor="middle" fill="#495057">recursive glob</text>
-<text x="160.0" y="484.0" font-size="20" text-anchor="middle" fill="#495057">skip index.md +</text>
-<text x="160.0" y="509.0" font-size="20" text-anchor="middle" fill="#495057">stubs</text>
-<text x="160.0" y="534.0" font-size="20" text-anchor="middle" fill="#495057">UTF-8, Cloudflare</text>
-<text x="160.0" y="559.0" font-size="20" text-anchor="middle" fill="#495057">email unscramble</text>
-<text x="460.0" y="434.0" font-size="20" text-anchor="middle" fill="#495057">tiktoken (gpt-4 enc)</text>
-<text x="460.0" y="459.0" font-size="20" text-anchor="middle" fill="#495057">MAX_TOKENS = 512</text>
-<text x="460.0" y="484.0" font-size="20" text-anchor="middle" fill="#495057">MIN_TOKENS = 64</text>
-<text x="460.0" y="509.0" font-size="20" text-anchor="middle" fill="#495057">OVERLAP = 64</text>
-<text x="460.0" y="534.0" font-size="20" text-anchor="middle" fill="#495057">atomic tables + lists</text>
-<text x="460.0" y="559.0" font-size="20" text-anchor="middle" fill="#495057">contextual header per</text>
-<text x="460.0" y="584.0" font-size="20" text-anchor="middle" fill="#495057">chunk: [Domain]</text>
-<text x="460.0" y="609.0" font-size="20" text-anchor="middle" fill="#495057">[Article]</text>
-<text x="460.0" y="634.0" font-size="20" text-anchor="middle" fill="#495057">[Section]</text>
-<text x="834.0" y="434.0" font-size="20" text-anchor="middle" fill="#495057">key = md5(model_name)</text>
-<text x="834.0" y="459.0" font-size="20" text-anchor="middle" fill="#495057">[:8]</text>
-<text x="834.0" y="484.0" font-size="20" text-anchor="middle" fill="#495057">auto-invalidates on</text>
-<text x="834.0" y="509.0" font-size="20" text-anchor="middle" fill="#495057">model change</text>
-<text x="834.0" y="534.0" font-size="20" text-anchor="middle" fill="#495057">pickle protocol 5</text>
-<text x="834.0" y="559.0" font-size="20" text-anchor="middle" fill="#495057">rebuild via --rebuild-</text>
-<text x="834.0" y="584.0" font-size="20" text-anchor="middle" fill="#495057">index</text>
-<text x="1135.0" y="294.0" font-size="20" text-anchor="middle" fill="#5f3dc4">embeddings.py</text>
-<text x="1135.0" y="319.0" font-size="20" text-anchor="middle" fill="#5f3dc4">fallback chain</text>
-<text x="1135.0" y="344.0" font-size="20" text-anchor="middle" fill="#5f3dc4"></text>
-<text x="1135.0" y="369.0" font-size="20" text-anchor="middle" fill="#5f3dc4">1. HF Inference API</text>
-<text x="1135.0" y="394.0" font-size="20" text-anchor="middle" fill="#5f3dc4">   BAAI/bge-large-en-v1.5</text>
-<text x="1135.0" y="419.0" font-size="20" text-anchor="middle" fill="#5f3dc4">2. ONNX local model</text>
-<text x="1135.0" y="444.0" font-size="20" text-anchor="middle" fill="#5f3dc4">3. TF-IDF (last resort)</text>
-<text x="1135.0" y="469.0" font-size="20" text-anchor="middle" fill="#5f3dc4"></text>
-<text x="1135.0" y="494.0" font-size="20" text-anchor="middle" fill="#5f3dc4">all L2-normalized, 1024d</text>
-<text x="40.0" y="454.0" font-size="20" text-anchor="middle" fill="#495057">Fast-path rules</text>
-<text x="40.0" y="479.0" font-size="20" text-anchor="middle" fill="#495057">(regex pre-classifier)</text>
-<text x="40.0" y="504.0" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="40.0" y="529.0" font-size="20" text-anchor="middle" fill="#495057">- gratitude / closing</text>
-<text x="40.0" y="554.0" font-size="20" text-anchor="middle" fill="#495057">- platform outage</text>
-<text x="40.0" y="579.0" font-size="20" text-anchor="middle" fill="#495057">  (single-user excluded)</text>
-<text x="40.0" y="604.0" font-size="20" text-anchor="middle" fill="#495057">- off-topic / unsafe</text>
-<text x="40.0" y="629.0" font-size="20" text-anchor="middle" fill="#495057">- malicious code requests</text>
-<text x="406.0" y="554.0" font-size="20" text-anchor="middle" fill="#495057">normalize_company()</text>
-<text x="406.0" y="579.0" font-size="20" text-anchor="middle" fill="#495057">then keyword scoring</text>
-<text x="406.0" y="604.0" font-size="20" text-anchor="middle" fill="#495057">per domain</text>
-<text x="406.0" y="629.0" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="406.0" y="654.0" font-size="20" text-anchor="middle" fill="#495057">tie-break:</text>
-<text x="406.0" y="679.0" font-size="20" text-anchor="middle" fill="#495057">search all 3</text>
-<text x="530.0" y="771.5" font-size="20" text-anchor="middle" fill="#495057">Hybrid retrieval (RRF)</text>
-<text x="530.0" y="796.5" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="530.0" y="821.5" font-size="20" text-anchor="middle" fill="#495057">BM25Okapi (rank_bm25)</text>
-<text x="530.0" y="846.5" font-size="20" text-anchor="middle" fill="#495057">  tokenize: \w+ lowercase</text>
-<text x="530.0" y="871.5" font-size="20" text-anchor="middle" fill="#495057">Dense vector</text>
-<text x="530.0" y="896.5" font-size="20" text-anchor="middle" fill="#495057">  cosine via dot product</text>
-<text x="530.0" y="921.5" font-size="20" text-anchor="middle" fill="#495057">  top_k=20, min_sim=0.15</text>
-<text x="530.0" y="946.5" font-size="20" text-anchor="middle" fill="#495057">RRF fusion</text>
-<text x="530.0" y="971.5" font-size="20" text-anchor="middle" fill="#495057">  k = 60</text>
-<text x="530.0" y="996.5" font-size="20" text-anchor="middle" fill="#495057">Source priors:</text>
-<text x="530.0" y="1021.5" font-size="20" text-anchor="middle" fill="#495057">  index.md  x 0.3</text>
-<text x="530.0" y="1046.5" font-size="20" text-anchor="middle" fill="#495057">  release-notes  x 0.5</text>
-<text x="530.0" y="1071.5" font-size="20" text-anchor="middle" fill="#495057">  ATS  x 0.7</text>
-<text x="530.0" y="1096.5" font-size="20" text-anchor="middle" fill="#495057">  faq / troubleshooting  x 1.3</text>
-<text x="1060.0" y="1053.0" font-size="20" text-anchor="middle" fill="#495057">Answerability gate</text>
-<text x="1060.0" y="1078.0" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="1060.0" y="1103.0" font-size="20" text-anchor="middle" fill="#495057">score = top RRF score</text>
-<text x="1060.0" y="1128.0" font-size="20" text-anchor="middle" fill="#495057">         after priors</text>
-<text x="1060.0" y="1153.0" font-size="20" text-anchor="middle" fill="#495057">threshold &gt;= 0.015</text>
-<text x="1060.0" y="1178.0" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="1060.0" y="1203.0" font-size="20" text-anchor="middle" fill="#495057">fail  -&gt;  escalate</text>
-<text x="1060.0" y="1228.0" font-size="20" text-anchor="middle" fill="#495057">(stops hallucination at</text>
-<text x="1060.0" y="1253.0" font-size="20" text-anchor="middle" fill="#495057"> the source)</text>
-<text x="430.0" y="1344.0" font-size="20" text-anchor="middle" fill="#495057">LLM generation details</text>
-<text x="430.0" y="1369.0" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="430.0" y="1394.0" font-size="20" text-anchor="middle" fill="#495057">claude-3-5-sonnet</text>
-<text x="430.0" y="1419.0" font-size="20" text-anchor="middle" fill="#495057">temperature = 0</text>
-<text x="430.0" y="1444.0" font-size="20" text-anchor="middle" fill="#495057">max_tokens = 2000</text>
-<text x="430.0" y="1469.0" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="430.0" y="1494.0" font-size="20" text-anchor="middle" fill="#495057">prompt = system</text>
-<text x="430.0" y="1519.0" font-size="20" text-anchor="middle" fill="#495057">       + few-shot examples</text>
-<text x="430.0" y="1544.0" font-size="20" text-anchor="middle" fill="#495057">       + user (issue,</text>
-<text x="430.0" y="1569.0" font-size="20" text-anchor="middle" fill="#495057">evidence)</text>
-<text x="430.0" y="1594.0" font-size="20" text-anchor="middle" fill="#495057">response = JSON</text>
-<text x="430.0" y="1619.0" font-size="20" text-anchor="middle" fill="#495057">retry x 3 on parse fail</text>
-<text x="430.0" y="1644.0" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="430.0" y="1669.0" font-size="20" text-anchor="middle" fill="#495057">fallback: HF Inference</text>
-<text x="430.0" y="1694.0" font-size="20" text-anchor="middle" fill="#495057">client if Anthropic 5xx</text>
-<text x="430.0" y="1584.0" font-size="20" text-anchor="middle" fill="#495057">Grounding verifier</text>
-<text x="430.0" y="1609.0" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="430.0" y="1634.0" font-size="20" text-anchor="middle" fill="#495057">regex-extract URLs,</text>
-<text x="430.0" y="1659.0" font-size="20" text-anchor="middle" fill="#495057">phones, emails from reply</text>
-<text x="430.0" y="1684.0" font-size="20" text-anchor="middle" fill="#495057">if token NOT in retrieved</text>
-<text x="430.0" y="1709.0" font-size="20" text-anchor="middle" fill="#495057">evidence -&gt; strip it</text>
-<text x="430.0" y="1734.0" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="430.0" y="1759.0" font-size="20" text-anchor="middle" fill="#495057">guards against</text>
-<text x="430.0" y="1784.0" font-size="20" text-anchor="middle" fill="#495057">fabricated artifacts</text>
-<text x="740.0" y="1844.0" font-size="20" text-anchor="middle" fill="#495057">Output schema (8 cols)</text>
-<text x="740.0" y="1869.0" font-size="20" text-anchor="middle" fill="#495057">issue, subject, company,</text>
-<text x="740.0" y="1894.0" font-size="20" text-anchor="middle" fill="#495057">response, product_area,</text>
-<text x="740.0" y="1919.0" font-size="20" text-anchor="middle" fill="#495057">status, request_type,</text>
-<text x="740.0" y="1944.0" font-size="20" text-anchor="middle" fill="#495057">justification</text>
-<text x="740.0" y="1969.0" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="740.0" y="1994.0" font-size="20" text-anchor="middle" fill="#495057">csv.QUOTE_ALL</text>
-<text x="1120.0" y="1724.0" font-size="20" text-anchor="middle" fill="#2b8a3e">Determinism + safety</text>
-<text x="1120.0" y="1749.0" font-size="20" text-anchor="middle" fill="#2b8a3e"></text>
-<text x="1120.0" y="1774.0" font-size="20" text-anchor="middle" fill="#2b8a3e">temperature = 0</text>
-<text x="1120.0" y="1799.0" font-size="20" text-anchor="middle" fill="#2b8a3e">pinned requirements.txt</text>
-<text x="1120.0" y="1824.0" font-size="20" text-anchor="middle" fill="#2b8a3e">model-aware cache hash</text>
-<text x="1120.0" y="1849.0" font-size="20" text-anchor="middle" fill="#2b8a3e">no live web calls</text>
-<text x="1120.0" y="1874.0" font-size="20" text-anchor="middle" fill="#2b8a3e">local corpus only</text>
-<text x="1120.0" y="1899.0" font-size="20" text-anchor="middle" fill="#2b8a3e"></text>
-<text x="1120.0" y="1924.0" font-size="20" text-anchor="middle" fill="#2b8a3e">.env (gitignored) for keys</text>
-<text x="530.0" y="771.5" font-size="20" text-anchor="middle" fill="#495057">Hybrid retrieval (RRF)</text>
-<text x="530.0" y="796.5" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="530.0" y="821.5" font-size="20" text-anchor="middle" fill="#495057">BM25Okapi (rank_bm25)</text>
-<text x="530.0" y="846.5" font-size="20" text-anchor="middle" fill="#495057">  tokenize: \w+ lowercase</text>
-<text x="530.0" y="871.5" font-size="20" text-anchor="middle" fill="#495057">Dense vector</text>
-<text x="530.0" y="896.5" font-size="20" text-anchor="middle" fill="#495057">  cosine via dot product</text>
-<text x="530.0" y="921.5" font-size="20" text-anchor="middle" fill="#495057">  top_k=20, min_sim=0.15</text>
-<text x="530.0" y="946.5" font-size="20" text-anchor="middle" fill="#495057">RRF fusion</text>
-<text x="530.0" y="971.5" font-size="20" text-anchor="middle" fill="#495057">  k = 60</text>
-<text x="530.0" y="996.5" font-size="20" text-anchor="middle" fill="#495057">Source priors:</text>
-<text x="530.0" y="1021.5" font-size="20" text-anchor="middle" fill="#495057">  index.md  x 0.3</text>
-<text x="530.0" y="1046.5" font-size="20" text-anchor="middle" fill="#495057">  release-notes  x 0.5</text>
-<text x="530.0" y="1071.5" font-size="20" text-anchor="middle" fill="#495057">  ATS  x 0.7</text>
-<text x="530.0" y="1096.5" font-size="20" text-anchor="middle" fill="#495057">  faq / troubleshooting  x 1.3</text>
-<text x="530.0" y="771.5" font-size="20" text-anchor="middle" fill="#495057">Hybrid retrieval (RRF)</text>
-<text x="530.0" y="796.5" font-size="20" text-anchor="middle" fill="#495057"></text>
-<text x="530.0" y="821.5" font-size="20" text-anchor="middle" fill="#495057">BM25Okapi (rank_bm25)</text>
-<text x="530.0" y="846.5" font-size="20" text-anchor="middle" fill="#495057">  tokenize: \w+ lowercase</text>
-<text x="530.0" y="871.5" font-size="20" text-anchor="middle" fill="#495057">Dense vector</text>
-<text x="530.0" y="896.5" font-size="20" text-anchor="middle" fill="#495057">  cosine via dot product</text>
-<text x="530.0" y="921.5" font-size="20" text-anchor="middle" fill="#495057">  top_k=20, min_sim=0.15</text>
-<text x="530.0" y="946.5" font-size="20" text-anchor="middle" fill="#495057">RRF fusion</text>
-<text x="530.0" y="971.5" font-size="20" text-anchor="middle" fill="#495057">  k = 60</text>
-<text x="530.0" y="996.5" font-size="20" text-anchor="middle" fill="#495057">Source priors:</text>
-<text x="530.0" y="1021.5" font-size="20" text-anchor="middle" fill="#495057">  index.md  x 0.3</text>
-<text x="530.0" y="1046.5" font-size="20" text-anchor="middle" fill="#495057">  release-notes  x 0.5</text>
-<text x="530.0" y="1071.5" font-size="20" text-anchor="middle" fill="#495057">  ATS  x 0.7</text>
-<text x="530.0" y="1096.5" font-size="20" text-anchor="middle" fill="#495057">  faq / troubleshooting  x 1.3</text>
+<text x="212.651780617312" y="742.3320371757519" font-size="20" text-anchor="middle" fill="#0c5793">no</text>
+<text x="-23.071762811618072" y="976.559034269299" font-size="20" text-anchor="middle" fill="#c92a2a">hit</text>
+<text x="736.099983215332" y="1309.0" font-size="20" text-anchor="middle" fill="#0c5793">yes</text>
+<text x="851.3902441890665" y="1325.4348141362884" font-size="20" text-anchor="middle" fill="#5f3dc4">call</text>
+<text x="224.58997344970703" y="1519.0" font-size="20" text-anchor="middle" fill="#c92a2a">write</text>
+<text x="650.0141881937305" y="536.3637153106471" font-size="20" text-anchor="middle" fill="#1971c2">loaded once</text>
+<text x="281.17207266509" y="1126.3741338054974" font-size="20" text-anchor="middle" fill="#0c5793">no</text>
+<text x="160.0" y="433.4" font-size="12" text-anchor="middle" fill="#495057">~800 .md files</text>
+<text x="160.0" y="448.4" font-size="12" text-anchor="middle" fill="#495057">recursive glob</text>
+<text x="160.0" y="463.4" font-size="12" text-anchor="middle" fill="#495057">skip index.md +</text>
+<text x="160.0" y="478.4" font-size="12" text-anchor="middle" fill="#495057">stubs</text>
+<text x="160.0" y="493.4" font-size="12" text-anchor="middle" fill="#495057">UTF-8, Cloudflare</text>
+<text x="160.0" y="508.4" font-size="12" text-anchor="middle" fill="#495057">email unscramble</text>
+<text x="460.0" y="433.4" font-size="12" text-anchor="middle" fill="#495057">tiktoken (gpt-4 enc)</text>
+<text x="460.0" y="448.4" font-size="12" text-anchor="middle" fill="#495057">MAX_TOKENS = 512</text>
+<text x="460.0" y="463.4" font-size="12" text-anchor="middle" fill="#495057">MIN_TOKENS = 64</text>
+<text x="460.0" y="478.4" font-size="12" text-anchor="middle" fill="#495057">OVERLAP = 64</text>
+<text x="460.0" y="493.4" font-size="12" text-anchor="middle" fill="#495057">atomic tables + lists</text>
+<text x="460.0" y="508.4" font-size="12" text-anchor="middle" fill="#495057">contextual header per</text>
+<text x="460.0" y="523.4" font-size="12" text-anchor="middle" fill="#495057">chunk: [Domain]</text>
+<text x="460.0" y="538.4" font-size="12" text-anchor="middle" fill="#495057">[Article]</text>
+<text x="460.0" y="553.4" font-size="12" text-anchor="middle" fill="#495057">[Section]</text>
+<text x="834.0" y="433.4" font-size="12" text-anchor="middle" fill="#495057">key = md5(model_name)</text>
+<text x="834.0" y="448.4" font-size="12" text-anchor="middle" fill="#495057">[:8]</text>
+<text x="834.0" y="463.4" font-size="12" text-anchor="middle" fill="#495057">auto-invalidates on</text>
+<text x="834.0" y="478.4" font-size="12" text-anchor="middle" fill="#495057">model change</text>
+<text x="834.0" y="493.4" font-size="12" text-anchor="middle" fill="#495057">pickle protocol 5</text>
+<text x="834.0" y="508.4" font-size="12" text-anchor="middle" fill="#495057">rebuild via --rebuild-</text>
+<text x="834.0" y="523.4" font-size="12" text-anchor="middle" fill="#495057">index</text>
+<text x="1135.0" y="293.4" font-size="12" text-anchor="middle" fill="#5f3dc4">embeddings.py</text>
+<text x="1135.0" y="308.4" font-size="12" text-anchor="middle" fill="#5f3dc4">fallback chain</text>
+<text x="1135.0" y="323.4" font-size="12" text-anchor="middle" fill="#5f3dc4"></text>
+<text x="1135.0" y="338.4" font-size="12" text-anchor="middle" fill="#5f3dc4">1. HF Inference API</text>
+<text x="1135.0" y="353.4" font-size="12" text-anchor="middle" fill="#5f3dc4">   BAAI/bge-large-en-v1.5</text>
+<text x="1135.0" y="368.4" font-size="12" text-anchor="middle" fill="#5f3dc4">2. ONNX local model</text>
+<text x="1135.0" y="383.4" font-size="12" text-anchor="middle" fill="#5f3dc4">3. TF-IDF (last resort)</text>
+<text x="1135.0" y="398.4" font-size="12" text-anchor="middle" fill="#5f3dc4"></text>
+<text x="1135.0" y="413.4" font-size="12" text-anchor="middle" fill="#5f3dc4">all L2-normalized, 1024d</text>
+<text x="-220.0" y="433.4" font-size="12" text-anchor="middle" fill="#495057">Fast-path rules</text>
+<text x="-220.0" y="448.4" font-size="12" text-anchor="middle" fill="#495057">(regex pre-classifier)</text>
+<text x="-220.0" y="463.4" font-size="12" text-anchor="middle" fill="#495057"></text>
+<text x="-220.0" y="478.4" font-size="12" text-anchor="middle" fill="#495057">- gratitude / closing</text>
+<text x="-220.0" y="493.4" font-size="12" text-anchor="middle" fill="#495057">- platform outage</text>
+<text x="-220.0" y="508.4" font-size="12" text-anchor="middle" fill="#495057">  (single-user excluded)</text>
+<text x="-220.0" y="523.4" font-size="12" text-anchor="middle" fill="#495057">- off-topic / unsafe</text>
+<text x="-220.0" y="538.4" font-size="12" text-anchor="middle" fill="#495057">- malicious code requests</text>
+<text x="430.0" y="623.4" font-size="12" text-anchor="middle" fill="#495057">normalize_company()</text>
+<text x="430.0" y="638.4" font-size="12" text-anchor="middle" fill="#495057">then keyword scoring</text>
+<text x="430.0" y="653.4" font-size="12" text-anchor="middle" fill="#495057">per domain</text>
+<text x="430.0" y="668.4" font-size="12" text-anchor="middle" fill="#495057"></text>
+<text x="430.0" y="683.4" font-size="12" text-anchor="middle" fill="#495057">tie-break:</text>
+<text x="430.0" y="698.4" font-size="12" text-anchor="middle" fill="#495057">search all 3</text>
+<text x="350.0" y="853.4" font-size="12" text-anchor="middle" fill="#495057">Hybrid retrieval (RRF)</text>
+<text x="350.0" y="868.4" font-size="12" text-anchor="middle" fill="#495057"></text>
+<text x="350.0" y="883.4" font-size="12" text-anchor="middle" fill="#495057">BM25Okapi (rank_bm25)</text>
+<text x="350.0" y="898.4" font-size="12" text-anchor="middle" fill="#495057">  tokenize: \w+ lowercase</text>
+<text x="350.0" y="913.4" font-size="12" text-anchor="middle" fill="#495057">Dense vector</text>
+<text x="350.0" y="928.4" font-size="12" text-anchor="middle" fill="#495057">  cosine via dot product</text>
+<text x="350.0" y="943.4" font-size="12" text-anchor="middle" fill="#495057">  top_k=20, min_sim=0.15</text>
+<text x="350.0" y="958.4" font-size="12" text-anchor="middle" fill="#495057">RRF fusion</text>
+<text x="350.0" y="973.4" font-size="12" text-anchor="middle" fill="#495057">  k = 60</text>
+<text x="350.0" y="988.4" font-size="12" text-anchor="middle" fill="#495057">Source priors:</text>
+<text x="350.0" y="1003.4" font-size="12" text-anchor="middle" fill="#495057">  index.md  x 0.3</text>
+<text x="350.0" y="1018.4" font-size="12" text-anchor="middle" fill="#495057">  release-notes  x 0.5</text>
+<text x="350.0" y="1033.4" font-size="12" text-anchor="middle" fill="#495057">  ATS  x 0.7</text>
+<text x="350.0" y="1048.4" font-size="12" text-anchor="middle" fill="#495057">  faq / troubleshooting  x 1.3</text>
+<text x="1060.0" y="1052.4" font-size="12" text-anchor="middle" fill="#495057">Answerability gate</text>
+<text x="1060.0" y="1067.4" font-size="12" text-anchor="middle" fill="#495057"></text>
+<text x="1060.0" y="1082.4" font-size="12" text-anchor="middle" fill="#495057">score = top RRF score</text>
+<text x="1060.0" y="1097.4" font-size="12" text-anchor="middle" fill="#495057">         after priors</text>
+<text x="1060.0" y="1112.4" font-size="12" text-anchor="middle" fill="#495057">threshold &gt;= 0.015</text>
+<text x="1060.0" y="1127.4" font-size="12" text-anchor="middle" fill="#495057"></text>
+<text x="1060.0" y="1142.4" font-size="12" text-anchor="middle" fill="#495057">fail  -&gt;  escalate</text>
+<text x="1060.0" y="1157.4" font-size="12" text-anchor="middle" fill="#495057">(stops hallucination at</text>
+<text x="1060.0" y="1172.4" font-size="12" text-anchor="middle" fill="#495057"> the source)</text>
+<text x="430.0" y="1343.4" font-size="12" text-anchor="middle" fill="#495057">LLM generation details</text>
+<text x="430.0" y="1358.4" font-size="12" text-anchor="middle" fill="#495057"></text>
+<text x="430.0" y="1373.4" font-size="12" text-anchor="middle" fill="#495057">claude-3-5-sonnet</text>
+<text x="430.0" y="1388.4" font-size="12" text-anchor="middle" fill="#495057">temperature = 0</text>
+<text x="430.0" y="1403.4" font-size="12" text-anchor="middle" fill="#495057">max_tokens = 2000</text>
+<text x="430.0" y="1418.4" font-size="12" text-anchor="middle" fill="#495057"></text>
+<text x="430.0" y="1433.4" font-size="12" text-anchor="middle" fill="#495057">prompt = system</text>
+<text x="430.0" y="1448.4" font-size="12" text-anchor="middle" fill="#495057">       + few-shot examples</text>
+<text x="430.0" y="1463.4" font-size="12" text-anchor="middle" fill="#495057">       + user (issue,</text>
+<text x="430.0" y="1478.4" font-size="12" text-anchor="middle" fill="#495057">evidence)</text>
+<text x="430.0" y="1493.4" font-size="12" text-anchor="middle" fill="#495057">response = JSON</text>
+<text x="430.0" y="1508.4" font-size="12" text-anchor="middle" fill="#495057">retry x 3 on parse fail</text>
+<text x="430.0" y="1523.4" font-size="12" text-anchor="middle" fill="#495057"></text>
+<text x="430.0" y="1538.4" font-size="12" text-anchor="middle" fill="#495057">fallback: HF Inference</text>
+<text x="430.0" y="1553.4" font-size="12" text-anchor="middle" fill="#495057">client if Anthropic 5xx</text>
+<text x="430.0" y="1600.4" font-size="12" text-anchor="middle" fill="#495057">Grounding verifier</text>
+<text x="430.0" y="1615.4" font-size="12" text-anchor="middle" fill="#495057"></text>
+<text x="430.0" y="1630.4" font-size="12" text-anchor="middle" fill="#495057">regex-extract URLs,</text>
+<text x="430.0" y="1645.4" font-size="12" text-anchor="middle" fill="#495057">phones, emails from reply</text>
+<text x="430.0" y="1660.4" font-size="12" text-anchor="middle" fill="#495057">if token NOT in retrieved</text>
+<text x="430.0" y="1675.4" font-size="12" text-anchor="middle" fill="#495057">evidence -&gt; strip it</text>
+<text x="430.0" y="1690.4" font-size="12" text-anchor="middle" fill="#495057"></text>
+<text x="430.0" y="1705.4" font-size="12" text-anchor="middle" fill="#495057">guards against</text>
+<text x="430.0" y="1720.4" font-size="12" text-anchor="middle" fill="#495057">fabricated artifacts</text>
+<text x="740.0" y="1843.4" font-size="12" text-anchor="middle" fill="#495057">Output schema (8 cols)</text>
+<text x="740.0" y="1858.4" font-size="12" text-anchor="middle" fill="#495057">issue, subject, company,</text>
+<text x="740.0" y="1873.4" font-size="12" text-anchor="middle" fill="#495057">response, product_area,</text>
+<text x="740.0" y="1888.4" font-size="12" text-anchor="middle" fill="#495057">status, request_type,</text>
+<text x="740.0" y="1903.4" font-size="12" text-anchor="middle" fill="#495057">justification</text>
+<text x="740.0" y="1918.4" font-size="12" text-anchor="middle" fill="#495057"></text>
+<text x="740.0" y="1933.4" font-size="12" text-anchor="middle" fill="#495057">csv.QUOTE_ALL</text>
+<text x="1120.0" y="1723.4" font-size="12" text-anchor="middle" fill="#2b8a3e">Determinism + safety</text>
+<text x="1120.0" y="1738.4" font-size="12" text-anchor="middle" fill="#2b8a3e"></text>
+<text x="1120.0" y="1753.4" font-size="12" text-anchor="middle" fill="#2b8a3e">temperature = 0</text>
+<text x="1120.0" y="1768.4" font-size="12" text-anchor="middle" fill="#2b8a3e">pinned requirements.txt</text>
+<text x="1120.0" y="1783.4" font-size="12" text-anchor="middle" fill="#2b8a3e">model-aware cache hash</text>
+<text x="1120.0" y="1798.4" font-size="12" text-anchor="middle" fill="#2b8a3e">no live web calls</text>
+<text x="1120.0" y="1813.4" font-size="12" text-anchor="middle" fill="#2b8a3e">local corpus only</text>
+<text x="1120.0" y="1828.4" font-size="12" text-anchor="middle" fill="#2b8a3e"></text>
+<text x="1120.0" y="1843.4" font-size="12" text-anchor="middle" fill="#2b8a3e">.env (gitignored) for keys</text>
 </svg>
