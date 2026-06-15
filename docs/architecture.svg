@@ -120,15 +120,15 @@
 <text x="834.0" y="493.4" font-size="12" text-anchor="middle" fill="#495057">pickle protocol 5</text>
 <text x="834.0" y="508.4" font-size="12" text-anchor="middle" fill="#495057">rebuild via --rebuild-</text>
 <text x="834.0" y="523.4" font-size="12" text-anchor="middle" fill="#495057">index</text>
-<text x="1135.0" y="293.4" font-size="12" text-anchor="middle" fill="#5f3dc4">embeddings.py</text>
-<text x="1135.0" y="308.4" font-size="12" text-anchor="middle" fill="#5f3dc4">fallback chain</text>
-<text x="1135.0" y="323.4" font-size="12" text-anchor="middle" fill="#5f3dc4"></text>
-<text x="1135.0" y="338.4" font-size="12" text-anchor="middle" fill="#5f3dc4">1. HF Inference API</text>
-<text x="1135.0" y="353.4" font-size="12" text-anchor="middle" fill="#5f3dc4">   BAAI/bge-large-en-v1.5</text>
-<text x="1135.0" y="368.4" font-size="12" text-anchor="middle" fill="#5f3dc4">2. ONNX local model</text>
-<text x="1135.0" y="383.4" font-size="12" text-anchor="middle" fill="#5f3dc4">3. TF-IDF (last resort)</text>
-<text x="1135.0" y="398.4" font-size="12" text-anchor="middle" fill="#5f3dc4"></text>
-<text x="1135.0" y="413.4" font-size="12" text-anchor="middle" fill="#5f3dc4">all L2-normalized, 1024d</text>
+<text x="1215.0" y="293.4" font-size="12" text-anchor="middle" fill="#5f3dc4">embeddings.py</text>
+<text x="1215.0" y="308.4" font-size="12" text-anchor="middle" fill="#5f3dc4">fallback chain</text>
+<text x="1215.0" y="323.4" font-size="12" text-anchor="middle" fill="#5f3dc4"></text>
+<text x="1215.0" y="338.4" font-size="12" text-anchor="middle" fill="#5f3dc4">1. HF Inference API</text>
+<text x="1215.0" y="353.4" font-size="12" text-anchor="middle" fill="#5f3dc4">   BAAI/bge-large-en-v1.5</text>
+<text x="1215.0" y="368.4" font-size="12" text-anchor="middle" fill="#5f3dc4">2. ONNX local model</text>
+<text x="1215.0" y="383.4" font-size="12" text-anchor="middle" fill="#5f3dc4">3. TF-IDF (last resort)</text>
+<text x="1215.0" y="398.4" font-size="12" text-anchor="middle" fill="#5f3dc4"></text>
+<text x="1215.0" y="413.4" font-size="12" text-anchor="middle" fill="#5f3dc4">all L2-normalized, 1024d</text>
 <text x="-220.0" y="433.4" font-size="12" text-anchor="middle" fill="#495057">Fast-path rules</text>
 <text x="-220.0" y="448.4" font-size="12" text-anchor="middle" fill="#495057">(regex pre-classifier)</text>
 <text x="-220.0" y="463.4" font-size="12" text-anchor="middle" fill="#495057"></text>
