@@ -11,9 +11,50 @@ Python support triage agent for the HackerRank Orchestrate challenge.
 
 ## Architecture
 
-![Architecture diagram](./architecture-diagram.svg)
+```mermaid
+flowchart LR
+    classDef io      fill:#e7f5ff,stroke:#1971c2,color:#0c4a73
+    classDef cfg     fill:#f8f0fc,stroke:#9c36b5,color:#5c1d72
+    classDef ret     fill:#edf2ff,stroke:#4263eb,color:#1e3a8a
+    classDef llm     fill:#fff0f6,stroke:#c2255c,color:#7a1144
+    classDef store   fill:#ebfbee,stroke:#2b8a3e,color:#1f6630
+    classDef out     fill:#e6fcf5,stroke:#0ca678,color:#0a5f49
+    classDef test    fill:#f1f3f5,stroke:#495057,color:#212529
 
-- Pipeline: CSV intake -> setup/config -> corpus cleanup -> embedding + indexing -> hybrid retrieval -> prompt + LLM response -> grounding verification -> output CSV
+    CSV([support_tickets.csv]):::io
+    MAIN[main.py<br/>batch runner + CLI]:::io
+
+    CFG[config.py<br/>paths · env · taxonomy]:::cfg
+    PRE[preprocessor.py<br/>clean markdown corpus]:::cfg
+    EMB[embeddings.py<br/>ONNX dense vectors]:::cfg
+
+    IDX[indexer.py<br/>chunk + BM25 + cache]:::ret
+    RETR[retriever.py<br/>BM25 + vector + RRF]:::ret
+    AGENT[agent.py<br/>fast-path · LLM · grounding]:::ret
+
+    PROMPTS[prompts.py<br/>system prompt + few-shot]:::llm
+    PROXY[Anthropic proxy<br/>localhost:6655]:::llm
+
+    DATA[(local corpus<br/>data/hackerrank · data/claude · data/visa)]:::store
+    CACHE[(code/.cache<br/>model + pickled indices)]:::store
+
+    OUT([output.csv]):::out
+    TESTS[pytest<br/>67 passing tests]:::test
+
+    CSV --> MAIN
+    MAIN --> CFG
+    CFG --> PRE --> EMB --> IDX
+    DATA --> IDX --> CACHE
+    IDX --> RETR --> AGENT
+    PROMPTS --> AGENT
+    AGENT <--> PROXY
+    AGENT --> OUT
+    TESTS -. covers .-> AGENT
+    TESTS -. covers .-> RETR
+    TESTS -. covers .-> IDX
+```
+
+- Pipeline: CSV intake → setup/config → corpus cleanup → embedding + indexing → hybrid retrieval → prompt + LLM response → grounding verification → output CSV
 - `config.py`: paths, constants, taxonomy, env loading
 - `preprocessor.py`: markdown cleanup for HackerRank, Claude, and Visa docs
 - `embeddings.py`: HF Inference API embedder (preferred), ONNX local fallback, TF-IDF last resort

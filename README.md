@@ -10,9 +10,51 @@ Read [`problem_statement.md`](./problem_statement.md) for the full task spec, in
 
 ## Architecture
 
-![Architecture](./docs/architecture.svg)
+```mermaid
+flowchart TD
+    classDef offline fill:#e7f5ff,stroke:#1971c2,color:#0c4a73
+    classDef online  fill:#e7f5ff,stroke:#0c5793,color:#0c4a73
+    classDef io      fill:#fff4e6,stroke:#a8470d,color:#7a3608
+    classDef llm     fill:#f3f0ff,stroke:#5f3dc4,color:#3b1f97
+    classDef out     fill:#ebfbee,stroke:#2b8a3e,color:#1f6630
+    classDef escalate fill:#ffe3e3,stroke:#c92a2a,color:#7a1717
+    classDef gate    fill:#fff9db,stroke:#f08c00,color:#5c3400
 
-The agent runs in two phases. Offline indexing loads the local corpus, cleans and chunks each markdown doc by heading, then builds a per-domain BM25 + dense vector index (BAAI/bge-large-en-v1.5, 1024d) cached under `code/.cache/`. The online pipeline reads `support_tickets.csv`, applies fast-path rules (gratitude, outage, off-topic, malicious), routes to a domain (HackerRank / Claude / Visa), runs hybrid retrieval with reciprocal rank fusion + source priors, gates on answerability (top RRF score ≥ 0.015), then asks Claude (temperature 0, JSON, retry × 3) to produce a grounded response which is verified to strip ungrounded URLs/phones/emails before being written to `output.csv`. The grey dashed callouts on the diagram capture the concrete parameters per stage. See [`code/README.md`](./code/README.md) for full module-level details.
+    subgraph OFF[Offline indexing]
+      direction LR
+      CORPUS["data/ corpus<br/>HackerRank · Claude · Visa<br/>~800 .md files"]:::offline
+      IDX["Indexer<br/>preprocess + chunk<br/>BM25 + dense (bge-large)"]:::offline
+      EMB["embeddings.py<br/>1. HF Inference API<br/>2. ONNX local<br/>3. TF-IDF (fallback)<br/>L2-normalised, 1024d"]:::llm
+      CACHE[("code/.cache/<br/>{domain}_{hash}.pkl<br/>model-aware")]:::offline
+      CORPUS --> IDX --> CACHE
+      IDX -. uses .-> EMB
+    end
+
+    subgraph ON[Online pipeline]
+      direction TB
+      IN(["support_tickets.csv"]):::io
+      FAST{{"1. Fast-path?<br/>gratitude · outage<br/>off-topic · unsafe"}}:::online
+      ROUTE["2. Domain router<br/>HackerRank / Claude / Visa"]:::online
+      RETR["3. Hybrid retrieval<br/>BM25 + vector → RRF<br/>+ source priors"]:::online
+      GATE{{"4. Answerable?<br/>top RRF ≥ 0.015"}}:::gate
+      LLM["5. LLM generation<br/>Claude · JSON · temp=0<br/>retry × 3"]:::online
+      VERIFY["6. Grounding verifier<br/>strip ungrounded<br/>URLs / phones / emails"]:::online
+      ESC[/"escalated<br/>(safe fallback)"/]:::escalate
+      OUT(["output.csv"]):::out
+
+      IN --> FAST
+      FAST -- "no" --> ROUTE --> RETR --> GATE
+      GATE -- "yes" --> LLM --> VERIFY --> OUT
+      FAST -- "hit" --> ESC --> OUT
+      GATE -- "no"  --> ESC
+    end
+
+    CACHE -. "loaded once" .-> RETR
+    LLMCLIENT["LLM client<br/>Anthropic proxy · HF Inference"]:::llm
+    LLM <-. "call" .-> LLMCLIENT
+```
+
+The agent runs in two phases. Offline indexing loads the local corpus, cleans and chunks each markdown doc by heading, then builds a per-domain BM25 + dense vector index (BAAI/bge-large-en-v1.5, 1024d) cached under `code/.cache/`. The online pipeline reads `support_tickets.csv`, applies fast-path rules (gratitude, outage, off-topic, malicious), routes to a domain (HackerRank / Claude / Visa), runs hybrid retrieval with reciprocal rank fusion + source priors, gates on answerability (top RRF score ≥ 0.015), then asks Claude (temperature 0, JSON, retry × 3) to produce a grounded response which is verified to strip ungrounded URLs/phones/emails before being written to `output.csv`. See [`code/README.md`](./code/README.md) for full module-level details.
 
 ---
 
