@@ -33,3 +33,6 @@ code/.cache/
 session-ses_*.md
 *.sqlite
 *.db
+
+# excalidraw mcp runtime log
+excalidraw.log
